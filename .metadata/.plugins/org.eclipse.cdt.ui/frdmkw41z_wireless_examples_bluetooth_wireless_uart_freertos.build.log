@@ -1,0 +1,6 @@
+21:57:40 **** Incremental Build of configuration Debug for project frdmkw41z_wireless_examples_bluetooth_wireless_uart_freertos ****
+make -r -j4 all 
+make: Nothing to be done for `all'.
+
+21:57:41 Build Finished (took 433ms)
+

@@ -1,0 +1,50 @@
+18:06:13 **** Incremental Build of configuration Debug for project MKW41Z512xxx4_Project ****
+make -r -j4 all 
+Building file: ../source/ppp-blinky.cpp
+Invoking: MCU C++ Compiler
+arm-none-eabi-c++ -D__NEWLIB__ -DSDK_DEBUGCONSOLE=0 -D__MCUXPRESSO -D__USE_CMSIS -DDEBUG -DCPU_MKW41Z512CAT4 -DCPU_MKW41Z512CAT4_cm0plus -I"C:\Users\Mahmoud\Documents\RTCES GIT 2\MKW41Z512xxx4_Project\source" -I"C:\Users\Mahmoud\Documents\RTCES GIT 2\MKW41Z512xxx4_Project" -I"C:\Users\Mahmoud\Documents\RTCES GIT 2\MKW41Z512xxx4_Project\CMSIS" -I"C:\Users\Mahmoud\Documents\RTCES GIT 2\MKW41Z512xxx4_Project\startup" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -mcpu=cortex-m0plus -mthumb -D__NEWLIB__ -MMD -MP -MF"source/ppp-blinky.d" -MT"source/ppp-blinky.o" -MT"source/ppp-blinky.d" -o "source/ppp-blinky.o" "../source/ppp-blinky.cpp"
+../source/ppp-blinky.cpp:155:1: error: 'RawSerial' does not name a type
+ RawSerial pc (USBTX, USBRX); // usb virtual com port for mbed hardware
+ ^
+../source/ppp-blinky.cpp: In function 'void pppReceiveHandler()':
+../source/ppp-blinky.cpp:206:13: error: 'pc' was not declared in this scope
+     while ( pc.readable() ) {
+             ^
+../source/ppp-blinky.cpp: In function 'void pcPutcWhileCheckingInput(int)':
+../source/ppp-blinky.cpp:354:5: error: 'pc' was not declared in this scope
+     pc.putc(ch);
+     ^
+../source/ppp-blinky.cpp: In function 'unsigned int dataCheckSum(char*, int, int)':
+../source/ppp-blinky.cpp:474:14: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     while ( i<len ) {
+              ^
+../source/ppp-blinky.cpp: In function 'int webSocketHandler(char*)':
+../source/ppp-blinky.cpp:841:61: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+         if (v0) putsWhileCheckingInput("WebSocket Request\n");
+                                                             ^
+../source/ppp-blinky.cpp: In function 'int tcpResponse(char*, int, int*)':
+../source/ppp-blinky.cpp:963:65: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+             if (v1) putsWhileCheckingInput("TCP data received\n"); // all other tcp push packets
+                                                                 ^
+../source/ppp-blinky.cpp: In function 'void sniff()':
+../source/ppp-blinky.cpp:1226:10: error: 'pc' was not declared in this scope
+     if ( pc.readable() ) putsWhileCheckingInput( "Sniff - Char available!\n" ); // if this prints anything it means there is a character in the serial receive buffer
+          ^
+../source/ppp-blinky.cpp:1226:78: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+     if ( pc.readable() ) putsWhileCheckingInput( "Sniff - Char available!\n" ); // if this prints anything it means there is a character in the serial receive buffer
+                                                                              ^
+../source/ppp-blinky.cpp: In function 'void waitForPcConnectString()':
+../source/ppp-blinky.cpp:1265:13: error: 'pc' was not declared in this scope
+             pc.puts("CLIENTSERVER");
+             ^
+../source/ppp-blinky.cpp: In function 'void initializePpp()':
+../source/ppp-blinky.cpp:1281:5: error: 'pc' was not declared in this scope
+     pc.baud(115200); // pc serial port acting as a dial-up modem - for PPP traffic
+     ^
+../source/ppp-blinky.cpp:1282:35: error: 'RawSerial' has not been declared
+     pc.attach(&pppReceiveHandler, RawSerial::RxIrq); // set up serial port receive interrupt handler
+                                   ^
+make: *** [source/ppp-blinky.o] Error 1
+
+18:06:13 Build Finished (took 449ms)
+

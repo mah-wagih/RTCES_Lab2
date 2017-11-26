@@ -1,0 +1,1017 @@
+!SESSION 2017-11-25 16:16:42.319 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_111
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.ui 4 4 2017-11-25 16:17:01.749
+!MESSAGE Plugin org.eclipse.cdt.ui, extension org.eclipse.ui.decorators, id org.eclipse.cdt.internal.ui.CustomBuildSettingsDecorator: Duplicate id found: org.eclipse.cdt.internal.ui.CustomBuildSettingsDecorator
+
+!ENTRY org.eclipse.ui 4 4 2017-11-25 16:17:01.759
+!MESSAGE Plugin org.eclipse.cdt.ui, extension org.eclipse.ui.decorators, id org.eclipse.cdt.internal.ui.CustomBuildSettingsDecorator: Unknown extension tag found: decorator
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-11-25 16:32:34.647
+!MESSAGE Indexed 'MKW41Z512xxx4_Project' (0 sources, 0 headers) in 0.004 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.core.resources 4 2 2017-11-25 16:41:40.220
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/MKW41Z512xxx4_Project/Debug/source/TARGET_KW41Z/TOOLCHAIN_ARM_STD' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:335)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:209)
+	at org.eclipse.core.internal.resources.Container.members(Container.java:239)
+	at org.eclipse.core.internal.resources.Container.members(Container.java:226)
+	at org.eclipse.cdt.managedbuilder.makegen.gnu.GnuMakefileGenerator.generateDependencies(GnuMakefileGenerator.java:598)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.performPostbuildGeneration(CommonBuilder.java:856)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:767)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:510)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:459)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:487)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:406)
+	at org.eclipse.ui.actions.BuildAction$1.runInWorkspace(BuildAction.java:285)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:39)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2017-11-25 16:41:40.222
+!MESSAGE Resource '/MKW41Z512xxx4_Project/Debug/source/TARGET_KW41Z/TOOLCHAIN_ARM_STD' does not exist.
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2017-11-25 16:41:40.222
+!MESSAGE Resource '/MKW41Z512xxx4_Project/Debug/source/TARGET_KW41Z/TOOLCHAIN_ARM_STD' does not exist.
+
+!ENTRY org.eclipse.core.resources 4 75 2017-11-25 16:41:40.767
+!MESSAGE Errors occurred during the build.
+!SUBENTRY 1 org.eclipse.cdt.managedbuilder.core 4 75 2017-11-25 16:41:40.768
+!MESSAGE Errors running builder 'CDT Builder' on project 'MKW41Z512xxx4_Project'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/MKW41Z512xxx4_Project/Debug/source/TARGET_KW41Z/TOOLCHAIN_ARM_STD' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:335)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:209)
+	at org.eclipse.core.internal.resources.Container.members(Container.java:239)
+	at org.eclipse.core.internal.resources.Container.members(Container.java:226)
+	at org.eclipse.cdt.managedbuilder.makegen.gnu.GnuMakefileGenerator.generateDependencies(GnuMakefileGenerator.java:598)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.performPostbuildGeneration(CommonBuilder.java:856)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:767)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:510)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:459)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:487)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:406)
+	at org.eclipse.ui.actions.BuildAction$1.runInWorkspace(BuildAction.java:285)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:39)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 2 org.eclipse.core.resources 4 368 2017-11-25 16:41:40.768
+!MESSAGE Resource '/MKW41Z512xxx4_Project/Debug/source/TARGET_KW41Z/TOOLCHAIN_ARM_STD' does not exist.
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2017-11-25 16:41:40.768
+!MESSAGE Resource '/MKW41Z512xxx4_Project/Debug/source/TARGET_KW41Z/TOOLCHAIN_ARM_STD' does not exist.
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-11-25 16:42:32.867
+!MESSAGE Indexed 'MKW41Z512xxx4_Project' (0 sources, 0 headers) in 0.001 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY com.crt.log 1 0 2017-11-26 16:09:38.480
+!MESSAGE Unable to find XML element for reference: iar (class com.nxp.mcuxpresso.core.datamodels.manifest.xml.ToolchainType)
+
+!ENTRY com.crt.log 1 0 2017-11-26 16:09:38.480
+!MESSAGE Unable to find XML element for reference: iar (class com.nxp.mcuxpresso.core.datamodels.manifest.xml.ToolchainType)
+
+!ENTRY com.crt.log 1 0 2017-11-26 16:09:38.480
+!MESSAGE Unable to find XML element for reference: iar (class com.nxp.mcuxpresso.core.datamodels.manifest.xml.ToolchainType)
+
+!ENTRY com.crt.log 1 0 2017-11-26 16:09:38.496
+!MESSAGE Unable to find XML element for reference: iar (class com.nxp.mcuxpresso.core.datamodels.manifest.xml.ToolchainType)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-11-26 16:09:38.655
+!MESSAGE Indexed 'frdmkw41z_wireless_examples_bluetooth_ipv6_node_freertos' (0 sources, 0 headers) in 0 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 16:09:40.863
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_ipv6_node_freertos/CMSIS/core_cmSimd.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 16:09:40.879
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_ipv6_node_freertos/CMSIS/core_cmFunc.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 16:09:40.894
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_ipv6_node_freertos/CMSIS/core_cmInstr.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 16:09:40.910
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_ipv6_node_freertos/CMSIS/arm_common_tables.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 16:09:40.926
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_ipv6_node_freertos/CMSIS/arm_const_structs.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 16:09:40.941
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_ipv6_node_freertos/CMSIS/arm_math.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 16:09:40.972
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_ipv6_node_freertos/CMSIS/cmsis_armcc.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 16:09:41.004
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_ipv6_node_freertos/CMSIS/cmsis_armcc_V6.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 16:09:41.019
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_ipv6_node_freertos/CMSIS/cmsis_gcc.h
+
+!ENTRY com.crt.log 1 0 2017-11-26 16:09:41.787
+!MESSAGE Unable to find XML element for reference: iar (class com.nxp.mcuxpresso.core.datamodels.manifest.xml.ToolchainType)
+
+!ENTRY com.crt.log 1 0 2017-11-26 16:09:41.787
+!MESSAGE Unable to find XML element for reference: iar (class com.nxp.mcuxpresso.core.datamodels.manifest.xml.ToolchainType)
+
+!ENTRY com.crt.log 1 0 2017-11-26 16:09:41.803
+!MESSAGE Unable to find XML element for reference: iar (class com.nxp.mcuxpresso.core.datamodels.manifest.xml.ToolchainType)
+
+!ENTRY com.crt.log 1 0 2017-11-26 16:09:41.803
+!MESSAGE Unable to find XML element for reference: iar (class com.nxp.mcuxpresso.core.datamodels.manifest.xml.ToolchainType)
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 16:09:42.053
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_ipv6_node_freertos/framework/OSAbstraction/Interface/fsl_os_abstraction.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 16:09:42.069
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_ipv6_node_freertos/framework/OSAbstraction/Interface/fsl_os_abstraction_config.h
+
+!ENTRY com.crt.log 1 0 2017-11-26 16:14:09.547
+!MESSAGE Unable to find XML element for reference: iar (class com.nxp.mcuxpresso.core.datamodels.manifest.xml.ToolchainType)
+
+!ENTRY com.crt.log 1 0 2017-11-26 16:14:09.562
+!MESSAGE Unable to find XML element for reference: iar (class com.nxp.mcuxpresso.core.datamodels.manifest.xml.ToolchainType)
+
+!ENTRY com.crt.log 1 0 2017-11-26 16:14:09.562
+!MESSAGE Unable to find XML element for reference: iar (class com.nxp.mcuxpresso.core.datamodels.manifest.xml.ToolchainType)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-11-26 16:14:09.670
+!MESSAGE Indexed 'frdmkw41z_wireless_examples_bluetooth_beacon_freertos' (0 sources, 0 headers) in 0 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 16:14:10.920
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_beacon_freertos/CMSIS/core_cmSimd.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 16:14:10.935
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_beacon_freertos/CMSIS/core_cmFunc.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 16:14:10.951
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_beacon_freertos/CMSIS/core_cmInstr.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 16:14:10.967
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_beacon_freertos/CMSIS/arm_common_tables.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 16:14:10.967
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_beacon_freertos/CMSIS/arm_const_structs.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 16:14:10.982
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_beacon_freertos/CMSIS/arm_math.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 16:14:11.013
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_beacon_freertos/CMSIS/cmsis_armcc.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 16:14:11.029
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_beacon_freertos/CMSIS/cmsis_armcc_V6.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 16:14:11.049
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_beacon_freertos/CMSIS/cmsis_gcc.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 16:14:11.479
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_beacon_freertos/framework/OSAbstraction/Interface/fsl_os_abstraction.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 16:14:11.510
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_beacon_freertos/framework/OSAbstraction/Interface/fsl_os_abstraction_config.h
+
+!ENTRY com.crt.log 1 0 2017-11-26 16:14:12.369
+!MESSAGE Unable to find XML element for reference: iar (class com.nxp.mcuxpresso.core.datamodels.manifest.xml.ToolchainType)
+
+!ENTRY com.crt.log 1 0 2017-11-26 16:14:12.375
+!MESSAGE Unable to find XML element for reference: iar (class com.nxp.mcuxpresso.core.datamodels.manifest.xml.ToolchainType)
+
+!ENTRY com.crt.log 1 0 2017-11-26 16:14:12.381
+!MESSAGE Unable to find XML element for reference: iar (class com.nxp.mcuxpresso.core.datamodels.manifest.xml.ToolchainType)
+
+!ENTRY com.crt.debugcommon 4 0 2017-11-26 16:20:00.980
+!MESSAGE There is already a running debug session for the launch configuration 'frdmkw41z_wireless_examples_bluetooth_beacon_freertos JLink Debug'.
+
+!ENTRY org.eclipse.debug.ui 4 120 2017-11-26 16:20:05.966
+!MESSAGE Error logged from Debug UI: 
+!STACK 0
+java.io.IOException: Input Stream Closed
+	at org.eclipse.ui.console.IOConsoleInputStream.available(IOConsoleInputStream.java:267)
+	at org.eclipse.ui.console.IOConsoleInputStream.read(IOConsoleInputStream.java:94)
+	at org.eclipse.ui.console.IOConsoleInputStream.read(IOConsoleInputStream.java:119)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole$InputReadJob.run(ProcessConsole.java:733)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.debug.ui 4 120 2017-11-26 16:22:57.381
+!MESSAGE Error logged from Debug UI: 
+!STACK 0
+java.io.IOException: Input Stream Closed
+	at org.eclipse.ui.console.IOConsoleInputStream.available(IOConsoleInputStream.java:267)
+	at org.eclipse.ui.console.IOConsoleInputStream.read(IOConsoleInputStream.java:94)
+	at org.eclipse.ui.console.IOConsoleInputStream.read(IOConsoleInputStream.java:119)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole$InputReadJob.run(ProcessConsole.java:733)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.debug.ui 4 120 2017-11-26 16:46:41.705
+!MESSAGE Error logged from Debug UI: 
+!STACK 0
+java.io.IOException: Input Stream Closed
+	at org.eclipse.ui.console.IOConsoleInputStream.available(IOConsoleInputStream.java:267)
+	at org.eclipse.ui.console.IOConsoleInputStream.read(IOConsoleInputStream.java:94)
+	at org.eclipse.ui.console.IOConsoleInputStream.read(IOConsoleInputStream.java:119)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole$InputReadJob.run(ProcessConsole.java:733)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.crt.log 1 0 2017-11-26 16:53:11.102
+!MESSAGE Unable to find XML element for reference: iar (class com.nxp.mcuxpresso.core.datamodels.manifest.xml.ToolchainType)
+
+!ENTRY com.crt.log 1 0 2017-11-26 16:53:11.109
+!MESSAGE Unable to find XML element for reference: iar (class com.nxp.mcuxpresso.core.datamodels.manifest.xml.ToolchainType)
+
+!ENTRY com.crt.log 1 0 2017-11-26 16:53:11.115
+!MESSAGE Unable to find XML element for reference: iar (class com.nxp.mcuxpresso.core.datamodels.manifest.xml.ToolchainType)
+
+!ENTRY com.crt.log 1 0 2017-11-26 16:53:11.122
+!MESSAGE Unable to find XML element for reference: iar (class com.nxp.mcuxpresso.core.datamodels.manifest.xml.ToolchainType)
+
+!ENTRY com.crt.log 1 0 2017-11-26 16:53:11.129
+!MESSAGE Unable to find XML element for reference: iar (class com.nxp.mcuxpresso.core.datamodels.manifest.xml.ToolchainType)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-11-26 16:53:11.287
+!MESSAGE Indexed 'frdmkw41z_wireless_examples_hybrid_ble_thread_host_controlled_device_freertos' (0 sources, 0 headers) in 0.001 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 16:53:13.037
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_hybrid_ble_thread_host_controlled_device_freertos/CMSIS/core_cmSimd.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 16:53:13.054
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_hybrid_ble_thread_host_controlled_device_freertos/CMSIS/core_cmFunc.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 16:53:13.070
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_hybrid_ble_thread_host_controlled_device_freertos/CMSIS/core_cmInstr.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 16:53:13.084
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_hybrid_ble_thread_host_controlled_device_freertos/CMSIS/arm_common_tables.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 16:53:13.098
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_hybrid_ble_thread_host_controlled_device_freertos/CMSIS/arm_const_structs.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 16:53:13.112
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_hybrid_ble_thread_host_controlled_device_freertos/CMSIS/arm_math.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 16:53:13.135
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_hybrid_ble_thread_host_controlled_device_freertos/CMSIS/cmsis_armcc.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 16:53:13.154
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_hybrid_ble_thread_host_controlled_device_freertos/CMSIS/cmsis_armcc_V6.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 16:53:13.176
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_hybrid_ble_thread_host_controlled_device_freertos/CMSIS/cmsis_gcc.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 16:53:13.840
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_hybrid_ble_thread_host_controlled_device_freertos/framework/OSAbstraction/Interface/fsl_os_abstraction.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 16:53:13.861
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_hybrid_ble_thread_host_controlled_device_freertos/framework/OSAbstraction/Interface/fsl_os_abstraction_config.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 16:53:15.149
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_hybrid_ble_thread_host_controlled_device_freertos/bluetooth/host/interface/att_errors.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 16:53:15.166
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_hybrid_ble_thread_host_controlled_device_freertos/bluetooth/host/interface/att_types.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 16:53:15.178
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_hybrid_ble_thread_host_controlled_device_freertos/bluetooth/host/interface/ble_constants.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 16:53:15.193
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_hybrid_ble_thread_host_controlled_device_freertos/bluetooth/host/interface/ble_general.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 16:53:15.212
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_hybrid_ble_thread_host_controlled_device_freertos/bluetooth/host/interface/ble_sig_defines.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 16:53:15.233
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_hybrid_ble_thread_host_controlled_device_freertos/bluetooth/host/interface/ble_utils.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 16:53:15.279
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_hybrid_ble_thread_host_controlled_device_freertos/bluetooth/host/interface/gap_interface.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 16:53:15.305
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_hybrid_ble_thread_host_controlled_device_freertos/bluetooth/host/interface/gap_types.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 16:53:15.329
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_hybrid_ble_thread_host_controlled_device_freertos/bluetooth/host/interface/gatt_client_interface.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 16:53:15.352
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_hybrid_ble_thread_host_controlled_device_freertos/bluetooth/host/interface/gatt_database.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 16:53:15.389
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_hybrid_ble_thread_host_controlled_device_freertos/bluetooth/host/interface/gatt_db_app_interface.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 16:53:15.426
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_hybrid_ble_thread_host_controlled_device_freertos/bluetooth/host/interface/gatt_db_dynamic.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 16:53:15.461
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_hybrid_ble_thread_host_controlled_device_freertos/bluetooth/host/interface/gatt_interface.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 16:53:15.479
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_hybrid_ble_thread_host_controlled_device_freertos/bluetooth/host/interface/gatt_server_interface.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 16:53:15.504
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_hybrid_ble_thread_host_controlled_device_freertos/bluetooth/host/interface/gatt_types.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 16:53:15.524
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_hybrid_ble_thread_host_controlled_device_freertos/bluetooth/host/interface/l2ca_cb_interface.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 16:53:15.597
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_hybrid_ble_thread_host_controlled_device_freertos/bluetooth/host/interface/l2ca_interface.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 16:53:15.613
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_hybrid_ble_thread_host_controlled_device_freertos/bluetooth/host/interface/l2ca_types.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 16:53:15.628
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_hybrid_ble_thread_host_controlled_device_freertos/bluetooth/host/interface/vendor_debug_commands.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 16:53:15.645
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_hybrid_ble_thread_host_controlled_device_freertos/bluetooth/host/config/ble_globals.c
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 16:53:15.661
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_hybrid_ble_thread_host_controlled_device_freertos/bluetooth/host/config/ble_config.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 16:53:16.830
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_hybrid_ble_thread_host_controlled_device_freertos/nwk_ip/base/interface/debug_log.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 16:53:16.860
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_hybrid_ble_thread_host_controlled_device_freertos/nwk_ip/base/interface/http.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 16:53:16.880
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_hybrid_ble_thread_host_controlled_device_freertos/nwk_ip/base/interface/http_cfg.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 16:53:16.898
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_hybrid_ble_thread_host_controlled_device_freertos/nwk_ip/base/interface/ip_if_6LowPan.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 16:53:16.911
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_hybrid_ble_thread_host_controlled_device_freertos/nwk_ip/base/interface/ip_if_enet.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 16:53:16.924
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_hybrid_ble_thread_host_controlled_device_freertos/nwk_ip/base/interface/ip_if_serial_tun.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 16:53:16.937
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_hybrid_ble_thread_host_controlled_device_freertos/nwk_ip/base/interface/ip_if_usbenet.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 16:53:16.951
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_hybrid_ble_thread_host_controlled_device_freertos/nwk_ip/base/interface/mac_abs_802154.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 16:53:16.963
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_hybrid_ble_thread_host_controlled_device_freertos/nwk_ip/base/interface/mac_abs_types.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 16:53:16.984
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_hybrid_ble_thread_host_controlled_device_freertos/nwk_ip/base/interface/mac_filtering.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 16:53:17.004
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_hybrid_ble_thread_host_controlled_device_freertos/nwk_ip/base/interface/mac_filtering_cfg.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 16:53:17.016
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_hybrid_ble_thread_host_controlled_device_freertos/nwk_ip/base/interface/nv_data.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 16:53:17.031
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_hybrid_ble_thread_host_controlled_device_freertos/nwk_ip/base/interface/nvm_adapter.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 16:53:17.058
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_hybrid_ble_thread_host_controlled_device_freertos/nwk_ip/base/interface/shell_ip.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 16:53:17.071
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_hybrid_ble_thread_host_controlled_device_freertos/nwk_ip/base/interface/thci.h
+
+!ENTRY com.crt.log 1 0 2017-11-26 16:53:18.292
+!MESSAGE Unable to find XML element for reference: iar (class com.nxp.mcuxpresso.core.datamodels.manifest.xml.ToolchainType)
+
+!ENTRY com.crt.log 1 0 2017-11-26 16:53:18.299
+!MESSAGE Unable to find XML element for reference: iar (class com.nxp.mcuxpresso.core.datamodels.manifest.xml.ToolchainType)
+
+!ENTRY com.crt.log 1 0 2017-11-26 16:53:18.304
+!MESSAGE Unable to find XML element for reference: iar (class com.nxp.mcuxpresso.core.datamodels.manifest.xml.ToolchainType)
+
+!ENTRY com.crt.log 1 0 2017-11-26 16:53:18.309
+!MESSAGE Unable to find XML element for reference: iar (class com.nxp.mcuxpresso.core.datamodels.manifest.xml.ToolchainType)
+
+!ENTRY com.crt.log 1 0 2017-11-26 16:53:18.314
+!MESSAGE Unable to find XML element for reference: iar (class com.nxp.mcuxpresso.core.datamodels.manifest.xml.ToolchainType)
+
+!ENTRY com.crt.log 1 0 2017-11-26 17:09:03.097
+!MESSAGE Unable to find XML element for reference: iar (class com.nxp.mcuxpresso.core.datamodels.manifest.xml.ToolchainType)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-11-26 17:09:03.239
+!MESSAGE Indexed 'frdmkw41z_wireless_examples_genfsk_connectivity_test_freertos' (0 sources, 0 headers) in 0.001 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 17:09:04.210
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_genfsk_connectivity_test_freertos/CMSIS/core_cmSimd.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 17:09:04.226
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_genfsk_connectivity_test_freertos/CMSIS/core_cmFunc.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 17:09:04.241
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_genfsk_connectivity_test_freertos/CMSIS/core_cmInstr.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 17:09:04.258
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_genfsk_connectivity_test_freertos/CMSIS/arm_common_tables.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 17:09:04.315
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_genfsk_connectivity_test_freertos/CMSIS/arm_const_structs.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 17:09:04.329
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_genfsk_connectivity_test_freertos/CMSIS/arm_math.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 17:09:04.349
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_genfsk_connectivity_test_freertos/CMSIS/cmsis_armcc.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 17:09:04.370
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_genfsk_connectivity_test_freertos/CMSIS/cmsis_armcc_V6.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 17:09:04.389
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_genfsk_connectivity_test_freertos/CMSIS/cmsis_gcc.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 17:09:04.672
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_genfsk_connectivity_test_freertos/framework/OSAbstraction/Interface/fsl_os_abstraction.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 17:09:04.694
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_genfsk_connectivity_test_freertos/framework/OSAbstraction/Interface/fsl_os_abstraction_config.h
+
+!ENTRY com.crt.log 1 0 2017-11-26 17:09:05.655
+!MESSAGE Unable to find XML element for reference: iar (class com.nxp.mcuxpresso.core.datamodels.manifest.xml.ToolchainType)
+
+!ENTRY org.eclipse.debug.ui 4 120 2017-11-26 17:10:20.531
+!MESSAGE Error logged from Debug UI: 
+!STACK 0
+java.io.IOException: Input Stream Closed
+	at org.eclipse.ui.console.IOConsoleInputStream.available(IOConsoleInputStream.java:267)
+	at org.eclipse.ui.console.IOConsoleInputStream.read(IOConsoleInputStream.java:94)
+	at org.eclipse.ui.console.IOConsoleInputStream.read(IOConsoleInputStream.java:119)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole$InputReadJob.run(ProcessConsole.java:733)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.crt.log 1 0 2017-11-26 17:21:39.980
+!MESSAGE Unable to find XML element for reference: iar (class com.nxp.mcuxpresso.core.datamodels.manifest.xml.ToolchainType)
+
+!ENTRY com.crt.log 1 0 2017-11-26 17:21:39.989
+!MESSAGE Unable to find XML element for reference: iar (class com.nxp.mcuxpresso.core.datamodels.manifest.xml.ToolchainType)
+
+!ENTRY com.crt.log 1 0 2017-11-26 17:21:39.996
+!MESSAGE Unable to find XML element for reference: iar (class com.nxp.mcuxpresso.core.datamodels.manifest.xml.ToolchainType)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-11-26 17:21:40.120
+!MESSAGE Indexed 'frdmkw41z_wireless_examples_bluetooth_alert_notification_server_freertos' (0 sources, 0 headers) in 0.001 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 17:21:41.649
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_alert_notification_server_freertos/CMSIS/core_cmSimd.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 17:21:41.665
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_alert_notification_server_freertos/CMSIS/core_cmFunc.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 17:21:41.679
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_alert_notification_server_freertos/CMSIS/core_cmInstr.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 17:21:41.707
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_alert_notification_server_freertos/CMSIS/arm_common_tables.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 17:21:41.726
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_alert_notification_server_freertos/CMSIS/arm_const_structs.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 17:21:41.742
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_alert_notification_server_freertos/CMSIS/arm_math.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 17:21:41.769
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_alert_notification_server_freertos/CMSIS/cmsis_armcc.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 17:21:41.794
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_alert_notification_server_freertos/CMSIS/cmsis_armcc_V6.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 17:21:41.819
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_alert_notification_server_freertos/CMSIS/cmsis_gcc.h
+
+!ENTRY com.crt.log 1 0 2017-11-26 17:21:42.344
+!MESSAGE Unable to find XML element for reference: iar (class com.nxp.mcuxpresso.core.datamodels.manifest.xml.ToolchainType)
+
+!ENTRY com.crt.log 1 0 2017-11-26 17:21:42.349
+!MESSAGE Unable to find XML element for reference: iar (class com.nxp.mcuxpresso.core.datamodels.manifest.xml.ToolchainType)
+
+!ENTRY com.crt.log 1 0 2017-11-26 17:21:42.354
+!MESSAGE Unable to find XML element for reference: iar (class com.nxp.mcuxpresso.core.datamodels.manifest.xml.ToolchainType)
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 17:21:42.575
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_alert_notification_server_freertos/framework/OSAbstraction/Interface/fsl_os_abstraction.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 17:21:42.601
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_alert_notification_server_freertos/framework/OSAbstraction/Interface/fsl_os_abstraction_config.h
+
+!ENTRY com.crt.log 1 0 2017-11-26 17:21:46.372
+!MESSAGE Unable to find XML element for reference: iar (class com.nxp.mcuxpresso.core.datamodels.manifest.xml.ToolchainType)
+
+!ENTRY com.crt.log 1 0 2017-11-26 17:21:46.379
+!MESSAGE Unable to find XML element for reference: iar (class com.nxp.mcuxpresso.core.datamodels.manifest.xml.ToolchainType)
+
+!ENTRY com.crt.log 1 0 2017-11-26 17:21:46.384
+!MESSAGE Unable to find XML element for reference: iar (class com.nxp.mcuxpresso.core.datamodels.manifest.xml.ToolchainType)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-11-26 17:21:46.520
+!MESSAGE Indexed 'frdmkw41z_wireless_examples_bluetooth_ble_fsci_black_box_freertos' (0 sources, 0 headers) in 0.001 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 17:21:47.608
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_ble_fsci_black_box_freertos/CMSIS/core_cmSimd.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 17:21:47.624
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_ble_fsci_black_box_freertos/CMSIS/core_cmFunc.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 17:21:47.641
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_ble_fsci_black_box_freertos/CMSIS/core_cmInstr.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 17:21:47.657
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_ble_fsci_black_box_freertos/CMSIS/arm_common_tables.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 17:21:47.672
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_ble_fsci_black_box_freertos/CMSIS/arm_const_structs.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 17:21:47.685
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_ble_fsci_black_box_freertos/CMSIS/arm_math.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 17:21:47.708
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_ble_fsci_black_box_freertos/CMSIS/cmsis_armcc.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 17:21:47.726
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_ble_fsci_black_box_freertos/CMSIS/cmsis_armcc_V6.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 17:21:47.744
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_ble_fsci_black_box_freertos/CMSIS/cmsis_gcc.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 17:21:48.142
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_ble_fsci_black_box_freertos/framework/OSAbstraction/Interface/fsl_os_abstraction.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 17:21:48.164
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_ble_fsci_black_box_freertos/framework/OSAbstraction/Interface/fsl_os_abstraction_config.h
+
+!ENTRY com.crt.log 1 0 2017-11-26 17:21:49.346
+!MESSAGE Unable to find XML element for reference: iar (class com.nxp.mcuxpresso.core.datamodels.manifest.xml.ToolchainType)
+
+!ENTRY com.crt.log 1 0 2017-11-26 17:21:49.354
+!MESSAGE Unable to find XML element for reference: iar (class com.nxp.mcuxpresso.core.datamodels.manifest.xml.ToolchainType)
+
+!ENTRY com.crt.log 1 0 2017-11-26 17:21:49.361
+!MESSAGE Unable to find XML element for reference: iar (class com.nxp.mcuxpresso.core.datamodels.manifest.xml.ToolchainType)
+
+!ENTRY com.crt.log 1 0 2017-11-26 17:21:51.678
+!MESSAGE Unable to find XML element for reference: iar (class com.nxp.mcuxpresso.core.datamodels.manifest.xml.ToolchainType)
+
+!ENTRY com.crt.log 1 0 2017-11-26 17:21:51.685
+!MESSAGE Unable to find XML element for reference: iar (class com.nxp.mcuxpresso.core.datamodels.manifest.xml.ToolchainType)
+
+!ENTRY com.crt.log 1 0 2017-11-26 17:21:51.691
+!MESSAGE Unable to find XML element for reference: iar (class com.nxp.mcuxpresso.core.datamodels.manifest.xml.ToolchainType)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-11-26 17:21:51.833
+!MESSAGE Indexed 'frdmkw41z_wireless_examples_bluetooth_ble_relay_proxy_freertos' (0 sources, 0 headers) in 0.001 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 17:21:52.980
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_ble_relay_proxy_freertos/CMSIS/core_cmSimd.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 17:21:52.992
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_ble_relay_proxy_freertos/CMSIS/core_cmFunc.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 17:21:53.005
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_ble_relay_proxy_freertos/CMSIS/core_cmInstr.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 17:21:53.018
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_ble_relay_proxy_freertos/CMSIS/arm_common_tables.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 17:21:53.029
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_ble_relay_proxy_freertos/CMSIS/arm_const_structs.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 17:21:53.042
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_ble_relay_proxy_freertos/CMSIS/arm_math.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 17:21:53.063
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_ble_relay_proxy_freertos/CMSIS/cmsis_armcc.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 17:21:53.083
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_ble_relay_proxy_freertos/CMSIS/cmsis_armcc_V6.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 17:21:53.103
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_ble_relay_proxy_freertos/CMSIS/cmsis_gcc.h
+
+!ENTRY com.crt.log 1 0 2017-11-26 17:21:53.491
+!MESSAGE Unable to find XML element for reference: iar (class com.nxp.mcuxpresso.core.datamodels.manifest.xml.ToolchainType)
+
+!ENTRY com.crt.log 1 0 2017-11-26 17:21:53.496
+!MESSAGE Unable to find XML element for reference: iar (class com.nxp.mcuxpresso.core.datamodels.manifest.xml.ToolchainType)
+
+!ENTRY com.crt.log 1 0 2017-11-26 17:21:53.502
+!MESSAGE Unable to find XML element for reference: iar (class com.nxp.mcuxpresso.core.datamodels.manifest.xml.ToolchainType)
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 17:21:53.620
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_ble_relay_proxy_freertos/framework/OSAbstraction/Interface/fsl_os_abstraction.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 17:21:53.640
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_ble_relay_proxy_freertos/framework/OSAbstraction/Interface/fsl_os_abstraction_config.h
+
+!ENTRY com.crt.log 1 0 2017-11-26 17:27:32.528
+!MESSAGE Unable to find XML element for reference: iar (class com.nxp.mcuxpresso.core.datamodels.manifest.xml.ToolchainType)
+
+!ENTRY com.crt.log 1 0 2017-11-26 17:27:32.535
+!MESSAGE Unable to find XML element for reference: iar (class com.nxp.mcuxpresso.core.datamodels.manifest.xml.ToolchainType)
+
+!ENTRY com.crt.log 1 0 2017-11-26 17:27:32.540
+!MESSAGE Unable to find XML element for reference: iar (class com.nxp.mcuxpresso.core.datamodels.manifest.xml.ToolchainType)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-11-26 17:27:32.688
+!MESSAGE Indexed 'frdmkw41z_wireless_examples_bluetooth_wireless_uart_freertos' (0 sources, 0 headers) in 0.001 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 17:27:33.909
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_wireless_uart_freertos/CMSIS/core_cmSimd.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 17:27:33.924
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_wireless_uart_freertos/CMSIS/core_cmFunc.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 17:27:33.937
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_wireless_uart_freertos/CMSIS/core_cmInstr.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 17:27:33.951
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_wireless_uart_freertos/CMSIS/arm_common_tables.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 17:27:33.964
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_wireless_uart_freertos/CMSIS/arm_const_structs.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 17:27:33.977
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_wireless_uart_freertos/CMSIS/arm_math.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 17:27:33.998
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_wireless_uart_freertos/CMSIS/cmsis_armcc.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 17:27:34.015
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_wireless_uart_freertos/CMSIS/cmsis_armcc_V6.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 17:27:34.035
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_wireless_uart_freertos/CMSIS/cmsis_gcc.h
+
+!ENTRY com.crt.log 1 0 2017-11-26 17:27:34.402
+!MESSAGE Unable to find XML element for reference: iar (class com.nxp.mcuxpresso.core.datamodels.manifest.xml.ToolchainType)
+
+!ENTRY com.crt.log 1 0 2017-11-26 17:27:34.410
+!MESSAGE Unable to find XML element for reference: iar (class com.nxp.mcuxpresso.core.datamodels.manifest.xml.ToolchainType)
+
+!ENTRY com.crt.log 1 0 2017-11-26 17:27:34.417
+!MESSAGE Unable to find XML element for reference: iar (class com.nxp.mcuxpresso.core.datamodels.manifest.xml.ToolchainType)
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 17:27:34.809
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_wireless_uart_freertos/framework/OSAbstraction/Interface/fsl_os_abstraction.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 17:27:34.831
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_wireless_uart_freertos/framework/OSAbstraction/Interface/fsl_os_abstraction_config.h
+
+!ENTRY org.eclipse.debug.ui 4 120 2017-11-26 17:29:06.249
+!MESSAGE Error logged from Debug UI: 
+!STACK 0
+java.io.IOException: Input Stream Closed
+	at org.eclipse.ui.console.IOConsoleInputStream.available(IOConsoleInputStream.java:267)
+	at org.eclipse.ui.console.IOConsoleInputStream.read(IOConsoleInputStream.java:94)
+	at org.eclipse.ui.console.IOConsoleInputStream.read(IOConsoleInputStream.java:119)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole$InputReadJob.run(ProcessConsole.java:733)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.debug.ui 4 120 2017-11-26 17:30:01.260
+!MESSAGE Error logged from Debug UI: 
+!STACK 0
+java.io.IOException: Input Stream Closed
+	at org.eclipse.ui.console.IOConsoleInputStream.available(IOConsoleInputStream.java:267)
+	at org.eclipse.ui.console.IOConsoleInputStream.read(IOConsoleInputStream.java:94)
+	at org.eclipse.ui.console.IOConsoleInputStream.read(IOConsoleInputStream.java:119)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole$InputReadJob.run(ProcessConsole.java:733)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.debug.core 4 2 2017-11-26 17:30:29.946
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.debug.core".
+!STACK 0
+java.lang.NullPointerException
+	at com.crt.dsfdebug.dsf.services.MCXTelnetService.launchesChanged(MCXTelnetService.java:243)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchesNotifier.run(LaunchManager.java:311)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchesNotifier.notify(LaunchManager.java:266)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:1054)
+	at org.eclipse.debug.core.Launch.fireChanged(Launch.java:394)
+	at org.eclipse.cdt.dsf.debug.model.DsfLaunch.access$0(DsfLaunch.java:1)
+	at org.eclipse.cdt.dsf.debug.model.DsfLaunch$1.run(DsfLaunch.java:42)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.run(DebugPlugin.java:1106)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.async(DebugPlugin.java:1087)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:439)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.debug.core 4 120 2017-11-26 17:30:29.956
+!MESSAGE An exception occurred during launch change notification.
+!STACK 0
+java.lang.NullPointerException
+	at com.crt.dsfdebug.dsf.services.MCXTelnetService.launchesChanged(MCXTelnetService.java:243)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchesNotifier.run(LaunchManager.java:311)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchesNotifier.notify(LaunchManager.java:266)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:1054)
+	at org.eclipse.debug.core.Launch.fireChanged(Launch.java:394)
+	at org.eclipse.cdt.dsf.debug.model.DsfLaunch.access$0(DsfLaunch.java:1)
+	at org.eclipse.cdt.dsf.debug.model.DsfLaunch$1.run(DsfLaunch.java:42)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.run(DebugPlugin.java:1106)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.async(DebugPlugin.java:1087)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:439)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.cdt.dsf 4 -1 2017-11-26 17:30:39.384
+!MESSAGE Invocation exception when calling a service event handler method
+!STACK 0
+java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.cdt.dsf.service.DsfSession.doDispatchEvent(DsfSession.java:531)
+	at org.eclipse.cdt.dsf.service.DsfSession.access$2(DsfSession.java:475)
+	at org.eclipse.cdt.dsf.service.DsfSession$3.run(DsfSession.java:398)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunch.getUpdateThreadListOnSuspend(GdbLaunch.java:962)
+	at org.eclipse.cdt.dsf.gdb.service.GDBBackend.getUpdateThreadListOnSuspend(GDBBackend.java:236)
+	at org.eclipse.cdt.dsf.gdb.service.GDBProcesses_7_0.eventDispatched(GDBProcesses_7_0.java:1827)
+	... 14 more
+Root exception:
+java.lang.NullPointerException
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunch.getUpdateThreadListOnSuspend(GdbLaunch.java:962)
+	at org.eclipse.cdt.dsf.gdb.service.GDBBackend.getUpdateThreadListOnSuspend(GDBBackend.java:236)
+	at org.eclipse.cdt.dsf.gdb.service.GDBProcesses_7_0.eventDispatched(GDBProcesses_7_0.java:1827)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.cdt.dsf.service.DsfSession.doDispatchEvent(DsfSession.java:531)
+	at org.eclipse.cdt.dsf.service.DsfSession.access$2(DsfSession.java:475)
+	at org.eclipse.cdt.dsf.service.DsfSession$3.run(DsfSession.java:398)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.debug.core 4 5012 2017-11-26 17:30:39.877
+!MESSAGE Launch configuration frdmkw41z_wireless_examples_genfsk_connectivity_test_freertos JLink Debug at file:/C:/Users/Mahmoud/Documents/RTCES%20GIT%202/frdmkw41z_wireless_examples_genfsk_connectivity_test_freertos/frdmkw41z_wireless_examples_genfsk_connectivity_test_freertos%20JLink%20Debug.launch does not exist.
+
+!ENTRY org.eclipse.debug.ui 4 120 2017-11-26 17:30:39.895
+!MESSAGE Error logged from Debug UI: 
+!STACK 0
+java.io.IOException: Input Stream Closed
+	at org.eclipse.ui.console.IOConsoleInputStream.available(IOConsoleInputStream.java:267)
+	at org.eclipse.ui.console.IOConsoleInputStream.read(IOConsoleInputStream.java:94)
+	at org.eclipse.ui.console.IOConsoleInputStream.read(IOConsoleInputStream.java:119)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole$InputReadJob.run(ProcessConsole.java:733)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.debug.ui 4 120 2017-11-26 17:48:15.323
+!MESSAGE Error logged from Debug UI: 
+!STACK 0
+java.io.IOException: Input Stream Closed
+	at org.eclipse.ui.console.IOConsoleInputStream.available(IOConsoleInputStream.java:267)
+	at org.eclipse.ui.console.IOConsoleInputStream.read(IOConsoleInputStream.java:94)
+	at org.eclipse.ui.console.IOConsoleInputStream.read(IOConsoleInputStream.java:119)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole$InputReadJob.run(ProcessConsole.java:733)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.crt.log 1 0 2017-11-26 17:51:07.855
+!MESSAGE Unable to find XML element for reference: iar (class com.nxp.mcuxpresso.core.datamodels.manifest.xml.ToolchainType)
+
+!ENTRY com.crt.log 1 0 2017-11-26 17:51:07.855
+!MESSAGE Unable to find XML element for reference: iar (class com.nxp.mcuxpresso.core.datamodels.manifest.xml.ToolchainType)
+
+!ENTRY com.crt.log 1 0 2017-11-26 17:51:07.870
+!MESSAGE Unable to find XML element for reference: iar (class com.nxp.mcuxpresso.core.datamodels.manifest.xml.ToolchainType)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-11-26 17:51:07.991
+!MESSAGE Indexed 'frdmkw41z_wireless_examples_bluetooth_wireless_power_pru_freertos' (0 sources, 0 headers) in 0.001 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 17:51:09.277
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_wireless_power_pru_freertos/CMSIS/core_cmSimd.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 17:51:09.297
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_wireless_power_pru_freertos/CMSIS/core_cmFunc.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 17:51:09.313
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_wireless_power_pru_freertos/CMSIS/core_cmInstr.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 17:51:09.328
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_wireless_power_pru_freertos/CMSIS/arm_common_tables.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 17:51:09.344
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_wireless_power_pru_freertos/CMSIS/arm_const_structs.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 17:51:09.360
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_wireless_power_pru_freertos/CMSIS/arm_math.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 17:51:09.375
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_wireless_power_pru_freertos/CMSIS/cmsis_armcc.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 17:51:09.406
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_wireless_power_pru_freertos/CMSIS/cmsis_armcc_V6.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 17:51:09.422
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_wireless_power_pru_freertos/CMSIS/cmsis_gcc.h
+
+!ENTRY com.crt.log 1 0 2017-11-26 17:51:10.110
+!MESSAGE Unable to find XML element for reference: iar (class com.nxp.mcuxpresso.core.datamodels.manifest.xml.ToolchainType)
+
+!ENTRY com.crt.log 1 0 2017-11-26 17:51:10.126
+!MESSAGE Unable to find XML element for reference: iar (class com.nxp.mcuxpresso.core.datamodels.manifest.xml.ToolchainType)
+
+!ENTRY com.crt.log 1 0 2017-11-26 17:51:10.126
+!MESSAGE Unable to find XML element for reference: iar (class com.nxp.mcuxpresso.core.datamodels.manifest.xml.ToolchainType)
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 17:51:10.142
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_wireless_power_pru_freertos/framework/OSAbstraction/Interface/fsl_os_abstraction.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 17:51:10.173
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_wireless_power_pru_freertos/framework/OSAbstraction/Interface/fsl_os_abstraction_config.h
+
+!ENTRY com.crt.log 1 0 2017-11-26 17:51:13.209
+!MESSAGE Unable to find XML element for reference: iar (class com.nxp.mcuxpresso.core.datamodels.manifest.xml.ToolchainType)
+
+!ENTRY com.crt.log 1 0 2017-11-26 17:51:13.209
+!MESSAGE Unable to find XML element for reference: iar (class com.nxp.mcuxpresso.core.datamodels.manifest.xml.ToolchainType)
+
+!ENTRY com.crt.log 1 0 2017-11-26 17:51:13.225
+!MESSAGE Unable to find XML element for reference: iar (class com.nxp.mcuxpresso.core.datamodels.manifest.xml.ToolchainType)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-11-26 17:51:13.287
+!MESSAGE Indexed 'frdmkw41z_wireless_examples_bluetooth_wireless_uart_freertos' (0 sources, 0 headers) in 0 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 17:51:14.335
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_wireless_uart_freertos/CMSIS/core_cmSimd.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 17:51:14.360
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_wireless_uart_freertos/CMSIS/core_cmFunc.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 17:51:14.375
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_wireless_uart_freertos/CMSIS/core_cmInstr.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 17:51:14.387
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_wireless_uart_freertos/CMSIS/arm_common_tables.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 17:51:14.400
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_wireless_uart_freertos/CMSIS/arm_const_structs.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 17:51:14.407
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_wireless_uart_freertos/CMSIS/arm_math.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 17:51:14.422
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_wireless_uart_freertos/CMSIS/cmsis_armcc.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 17:51:14.438
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_wireless_uart_freertos/CMSIS/cmsis_armcc_V6.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 17:51:14.454
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_wireless_uart_freertos/CMSIS/cmsis_gcc.h
+
+!ENTRY com.crt.log 1 0 2017-11-26 17:51:14.818
+!MESSAGE Unable to find XML element for reference: iar (class com.nxp.mcuxpresso.core.datamodels.manifest.xml.ToolchainType)
+
+!ENTRY com.crt.log 1 0 2017-11-26 17:51:14.833
+!MESSAGE Unable to find XML element for reference: iar (class com.nxp.mcuxpresso.core.datamodels.manifest.xml.ToolchainType)
+
+!ENTRY com.crt.log 1 0 2017-11-26 17:51:14.833
+!MESSAGE Unable to find XML element for reference: iar (class com.nxp.mcuxpresso.core.datamodels.manifest.xml.ToolchainType)
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 17:51:15.045
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_wireless_uart_freertos/framework/OSAbstraction/Interface/fsl_os_abstraction.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 17:51:15.076
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_wireless_uart_freertos/framework/OSAbstraction/Interface/fsl_os_abstraction_config.h
+
+!ENTRY org.eclipse.debug.ui 4 120 2017-11-26 17:52:36.852
+!MESSAGE Error logged from Debug UI: 
+!STACK 0
+java.io.IOException: Input Stream Closed
+	at org.eclipse.ui.console.IOConsoleInputStream.available(IOConsoleInputStream.java:267)
+	at org.eclipse.ui.console.IOConsoleInputStream.read(IOConsoleInputStream.java:94)
+	at org.eclipse.ui.console.IOConsoleInputStream.read(IOConsoleInputStream.java:119)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole$InputReadJob.run(ProcessConsole.java:733)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2017-11-26 21:07:53.294
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.ImmediateRequestMonitor@1d28f94): Status ERROR: org.eclipse.cdt.dsf.gdb code=10004 Interrupt failed. null' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10004 2017-11-26 21:07:53.294
+!MESSAGE Interrupt failed.
+
+!ENTRY org.eclipse.debug.ui 4 120 2017-11-26 21:08:18.702
+!MESSAGE Error logged from Debug UI: 
+!STACK 0
+java.io.IOException: Input Stream Closed
+	at org.eclipse.ui.console.IOConsoleInputStream.available(IOConsoleInputStream.java:267)
+	at org.eclipse.ui.console.IOConsoleInputStream.read(IOConsoleInputStream.java:94)
+	at org.eclipse.ui.console.IOConsoleInputStream.read(IOConsoleInputStream.java:119)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole$InputReadJob.run(ProcessConsole.java:733)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2017-11-26 21:08:20.732
+!MESSAGE Request for monitor: 'RequestMonitor (com.crt.dsfdebug.ui.SuspendAllAction$1@1bf880d): Status ERROR: org.eclipse.cdt.dsf.gdb code=10004 Interrupt failed. null' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10004 2017-11-26 21:08:20.732
+!MESSAGE Interrupt failed.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2017-11-26 21:08:21.185
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.ImmediateRequestMonitor@858cfd): Status ERROR: org.eclipse.cdt.dsf.gdb code=10004 Interrupt failed. null' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10004 2017-11-26 21:08:21.185
+!MESSAGE Interrupt failed.
+
+!ENTRY org.eclipse.debug.ui 4 120 2017-11-26 21:18:33.596
+!MESSAGE Error logged from Debug UI: 
+!STACK 0
+java.io.IOException: Input Stream Closed
+	at org.eclipse.ui.console.IOConsoleInputStream.available(IOConsoleInputStream.java:267)
+	at org.eclipse.ui.console.IOConsoleInputStream.read(IOConsoleInputStream.java:94)
+	at org.eclipse.ui.console.IOConsoleInputStream.read(IOConsoleInputStream.java:119)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole$InputReadJob.run(ProcessConsole.java:733)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.debug.ui 4 120 2017-11-26 21:22:39.628
+!MESSAGE Error logged from Debug UI: 
+!STACK 0
+java.io.IOException: Input Stream Closed
+	at org.eclipse.ui.console.IOConsoleInputStream.available(IOConsoleInputStream.java:267)
+	at org.eclipse.ui.console.IOConsoleInputStream.read(IOConsoleInputStream.java:94)
+	at org.eclipse.ui.console.IOConsoleInputStream.read(IOConsoleInputStream.java:119)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole$InputReadJob.run(ProcessConsole.java:733)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.crt.debugcommon 4 0 2017-11-26 21:28:59.115
+!MESSAGE There is already a running debug session for the launch configuration 'frdmkw41z_wireless_examples_bluetooth_wireless_uart_freertos JLink Debug'.
+
+!ENTRY com.crt.debugcommon 4 0 2017-11-26 21:29:46.408
+!MESSAGE There is already a running debug session for the launch configuration 'frdmkw41z_wireless_examples_bluetooth_wireless_uart_freertos JLink Debug'.
+
+!ENTRY org.eclipse.debug.ui 4 120 2017-11-26 21:29:55.845
+!MESSAGE Error logged from Debug UI: 
+!STACK 0
+java.io.IOException: Input Stream Closed
+	at org.eclipse.ui.console.IOConsoleInputStream.available(IOConsoleInputStream.java:267)
+	at org.eclipse.ui.console.IOConsoleInputStream.read(IOConsoleInputStream.java:94)
+	at org.eclipse.ui.console.IOConsoleInputStream.read(IOConsoleInputStream.java:119)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole$InputReadJob.run(ProcessConsole.java:733)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.crt.debugcommon 4 0 2017-11-26 21:30:28.531
+!MESSAGE There is already a running debug session for the launch configuration 'frdmkw41z_wireless_examples_bluetooth_wireless_uart_freertos JLink Debug'.
+
+!ENTRY org.eclipse.debug.ui 4 120 2017-11-26 21:34:13.449
+!MESSAGE Error logged from Debug UI: 
+!STACK 0
+java.io.IOException: Input Stream Closed
+	at org.eclipse.ui.console.IOConsoleInputStream.available(IOConsoleInputStream.java:267)
+	at org.eclipse.ui.console.IOConsoleInputStream.read(IOConsoleInputStream.java:94)
+	at org.eclipse.ui.console.IOConsoleInputStream.read(IOConsoleInputStream.java:119)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole$InputReadJob.run(ProcessConsole.java:733)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.debug.ui 4 120 2017-11-26 21:35:45.090
+!MESSAGE Error logged from Debug UI: 
+!STACK 0
+java.io.IOException: Input Stream Closed
+	at org.eclipse.ui.console.IOConsoleInputStream.available(IOConsoleInputStream.java:267)
+	at org.eclipse.ui.console.IOConsoleInputStream.read(IOConsoleInputStream.java:94)
+	at org.eclipse.ui.console.IOConsoleInputStream.read(IOConsoleInputStream.java:119)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole$InputReadJob.run(ProcessConsole.java:733)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.debug.ui 4 120 2017-11-26 21:43:43.761
+!MESSAGE Error logged from Debug UI: 
+!STACK 0
+java.io.IOException: Input Stream Closed
+	at org.eclipse.ui.console.IOConsoleInputStream.available(IOConsoleInputStream.java:267)
+	at org.eclipse.ui.console.IOConsoleInputStream.read(IOConsoleInputStream.java:94)
+	at org.eclipse.ui.console.IOConsoleInputStream.read(IOConsoleInputStream.java:119)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole$InputReadJob.run(ProcessConsole.java:733)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.debug.ui 4 120 2017-11-26 21:57:17.721
+!MESSAGE Error logged from Debug UI: 
+!STACK 0
+java.io.IOException: Input Stream Closed
+	at org.eclipse.ui.console.IOConsoleInputStream.available(IOConsoleInputStream.java:267)
+	at org.eclipse.ui.console.IOConsoleInputStream.read(IOConsoleInputStream.java:94)
+	at org.eclipse.ui.console.IOConsoleInputStream.read(IOConsoleInputStream.java:119)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole$InputReadJob.run(ProcessConsole.java:733)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
